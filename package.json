@@ -1,0 +1,20 @@
+{
+  "name": "open_in_3duf_plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -d --watch",
+    "start": "npm run webpack"
+  },
+  "author": "Krishna",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
