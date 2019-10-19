@@ -4,10 +4,15 @@
 <script>
     window.onload = function() {
         var params = {
-            "1": 1,
-            "2": 2
+            "orificeSize": 750,
+            "orificeLength": 200,
+            "oilInputWidth": 800,
+            "waterInputWidth": 900,
+            "outputWidth": 900,
+            "outputLength": 500,
+            "height": 100
         };
-        ThreeDuFPlugin.openDesignWithParamChanges("TEST", "TEST", params);
+        ThreeDuFPlugin.openDesignWithDAFDParams(params);
     }
 </script>
 
