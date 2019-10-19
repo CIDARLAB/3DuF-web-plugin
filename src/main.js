@@ -31,8 +31,7 @@ export function openDesignWithParamChanges(fileurl, componentname, params) {
  * @param params Javascript object key value pairs of parameters that need to change
  */
 export function openDesignWithDAFDParams(params) {
-    // let baseurl = new URL("https://3duf.org/");
-    let baseurl = new URL("file:///Users/krishna/Documents/3DuF/index.html");
+    let baseurl = new URL("https://3duf.org/");
     console.log(JSON.stringify(params));
     baseurl.searchParams.append('dafdparams', (JSON.stringify(params)));
     console.log("DAFD Link:", baseurl);
